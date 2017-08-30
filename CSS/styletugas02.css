@@ -1,0 +1,291 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/** style navbar **/
+
+
+
+.head-contact-info li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: right;
+    color: white;
+}
+
+
+
+.jenis1{
+    background-color: white;
+    height: 300px;
+}
+
+.jenis2{
+    background-color: white;
+    height: 200px;
+}
+
+.white{
+    background-color: white;
+}
+
+.white3{
+    background-color: white;
+}
+
+.grey{
+    background-color: whitesmoke;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.right2{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.red{
+    background-color: red;
+}
+
+.whitef{
+    background-color: wheat;
+    height: 100px;
+}
+
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.pink{
+    background-color: hotpink;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.brownheader{
+    background-color: brown;
+    height: 150px;
+}
+
+.brownf{
+    background-color: brown;
+    height: 100px;
+}
+
+.brown2{
+    background-color: burlywood;
+}
+
+.brown2header{
+    background-color: burlywood;
+    height: 150px;
+}
+
+.brown3{
+    background-color: goldenrod;
+}
+
+.brown3f{
+    background-color: darkgoldenrod;
+    height: 100px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.tosca{
+    background-color: turquoise;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.child-footer{
+    height: 100px;
+}
+
+.child-content{
+    height: 80px;
+}
+
+#linkcol{
+    color: white;
+}
+
+#linkcol2{
+    color: brown;
+}
+
+/** MENU ANIMASI ICON SOCMED **/
+
+.footer-menu ul {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.footer-menu ul li{
+    list-style: none;
+    
+}
+
+.footer-menu ul li a{
+    width: 50px;
+    height: 50px;
+    background: white;
+    text-align: center;
+    line-height: 47px;
+    font-size: 40px;
+    margin: 0 15px;
+    display: block;
+    border-radius: 25%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1
+        
+}
+
+.footer-menu ul li a .fa{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.footer-menu ul li a:hover 
+
+.fa{
+    color: #fff;
+    transform: rotateY(360deg)
+}
+
+.footer-menu ul li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.footer-menu ul li a:hover:before{
+    top: 0;
+}
+
+ul li:nth-child(1) a:before{
+    background: #3b5999;
+}
+
+ul li:nth-child(2) a:before{
+    background: #e4405f;
+}
+
+ul li:nth-child(3) a:before{
+    background: #f46f30;
+}
+
+
+
+
+
+/** MENU ANIMASI ICON SOCMED 2 **/
+
+.footer-menu2 ul {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.footer-menu2 ul li{
+    list-style: none;
+    
+}
+
+.footer-menu2 ul li a{
+    width: 35px;
+    height: 35px;
+    background: white;
+    text-align: center;
+    line-height: 10px;
+    font-size: 30px;
+    margin: 10px;
+    display: block;
+    border-radius: 10%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1
+        
+}
+
+.footer-menu2 ul li a .fa{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.footer-menu2 ul li a:hover 
+
+.fa{
+    color: #fff;
+    transform: rotateY(360deg)
+}
+
+.footer-menu2 ul li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.footer-menu2 ul li a:hover:before{
+    top: 0;
+}
+
+ul li:nth-child(1) a:before{
+    background: #3b5999;
+}
+
+ul li:nth-child(2) a:before{
+    background: #e4405f;
+}
+
+ul li:nth-child(3) a:before{
+    background: #f46f30;
+}

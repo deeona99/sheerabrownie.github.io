@@ -1,0 +1,93 @@
+.headerpenuh{
+    background-color: white;
+    float: left;
+    width: 100%;
+}
+
+.headerkanan{
+    background-color: white;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.headerkanan2{
+    float: none;
+    widows: 50%;
+    text-align: right;
+}
+
+
+.menu atas{
+    background-color: brown;
+    
+}
+
+.container1{
+    float: left;
+    background-color: brown;
+    height: 200px;
+    width: 100%;
+    
+}
+
+
+.home{
+    float: left;
+    background-color: brown;
+    width: 15%;
+    text-align: center;
+    
+}
+
+
+.about{
+    float: left;
+    background-color: brown;
+    width: 15%;
+    text-align: center;
+    
+}
+
+.whysb{
+    float: left;
+    background-color: brown;
+    width: 15%;
+    text-align: center;
+   
+}
+
+.reseller{
+    float: left;
+    background-color: brown;
+    width: 15%;
+    text-align: center;
+   
+}
+
+.shipping{
+    float: left;
+    background-color: brown;
+    width: 15%;
+    text-align: center;
+    
+}
+
+.headerbawah{
+    background-color: brown;
+    width: auto;
+    height: auto;
+}
+
+
+#text1{
+    color: white;
+    text-align: center;
+}
+
+
+
+#text2{
+    color: white;
+    text-align: center;
+}
